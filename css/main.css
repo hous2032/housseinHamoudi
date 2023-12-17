@@ -3,7 +3,8 @@
     --second-bg-color:#0289d146;
     --vertical-pd:1.5rem;
     --txt-color:#FFFFFF;
-
+    --second-cover-color:#0289d100;
+    
 }
 *{
     padding: 0;
@@ -137,7 +138,7 @@ header .container nav a:hover{
     height: 100%;
     top: 0;
     right: 0;
-    background-color:var(--second-bg-color);
+    background-color:var(--second-cover-color);
 }
 .about-section .text{
     position: absolute;
@@ -154,7 +155,7 @@ header .container nav a:hover{
     text-align: center;
     padding-left: 0.75rem;
 }
-.about-section .text h2 span{
+.about-section .text  span{
     color: var(--main-bg-color);
     padding-left: 0.23rem;
 }
