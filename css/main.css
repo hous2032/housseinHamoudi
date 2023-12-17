@@ -122,6 +122,10 @@ header .container nav a:hover{
         padding-top: 0.25rem;
         padding-bottom: 0.25rem;
     }
+    .about-section {
+        
+        background-size: contain;
+    }
 }
 
 .about-section {
