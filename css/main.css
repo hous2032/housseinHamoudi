@@ -111,7 +111,7 @@ header .container nav a:hover{
     position: relative;
     left: -25%;
 }
-@media (max-width : 375px) {
+@media (max-width : 500px) {
     header .container {
         flex-flow: column wrap;
     }
@@ -138,7 +138,7 @@ header .container nav a:hover{
     height: 100%;
     top: 0;
     right: 0;
-    background-color:var(--second-cover-color);
+    background-color:#0289d100;
 }
 .about-section .text{
     position: absolute;
