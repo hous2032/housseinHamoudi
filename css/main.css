@@ -12,6 +12,7 @@
     box-sizing: border-box;
     font-weight: 900;
     color: var(--txt-color);
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -85,14 +86,19 @@ header .container nav a{
     word-spacing: -1;
     height: 40px;
     display: inline-block;
-    padding: 10px 2;}
+    padding: 10px 2;
+    border-radius: 6px  6px 0 0;
+}
 header .container nav a:nth-child(2){
     padding-left: 0.5rem;
     padding-right: 0.5rem;
 }
 header .container nav a:hover{
     background-color: var(--second-bg-color);
-    border-radius: 6px  6px 0 0;
+    
+}
+header .container nav a.active{
+    background-color: var(--second-bg-color);
 }
 .logo i{
     overflow: hidden;
@@ -171,6 +177,16 @@ header .container nav a:hover{
     text-align: left;
     
 }
+@media (max-width : 767px) {
+    .about-section {
+        /* position: relative;
+        background-image: url('../me.jpg');
+        width: 100%;
+        height: 93vh; */
+        background-size: contain;
+        background-repeat: repeat-x;
+    }
+}
 .projects-section ul {
     display: flex;
     justify-content: space-evenly;
@@ -189,6 +205,9 @@ header .container nav a:hover{
     background-color: var(--main-bg-color);
 
 }
+.projects-section ul li.active{
+    background-color: var(--main-bg-color);
+}
 
 .projects{
     display: grid;
@@ -200,6 +219,10 @@ header .container nav a:hover{
     text-align: center;
 }
 .projects img{
+    width: 90%;
+    max-height: 100%;
+}
+.projects video{
     width: 90%;
 }
 footer {
