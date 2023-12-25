@@ -218,12 +218,11 @@ header .container nav a.active{
 }
 .projects .project{
     text-align: center;
-
+    position: relative;
 }
 .projects img{
     width: 90%;
     max-height: 100%;
-    position: relative;
 }
 .projects video{
     width: 90%;
